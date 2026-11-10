@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo del Cine Clásico Universal</title>
+    <!-- CSS oficial de Bootstrap 6 desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css" />
+</head>
+
+<body class="bg-dark text-light">
+    <header>
+        <nav class="navbar navbar-expand-lg shadow-sm py-3" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-4" href="#">
+                    CineClásico
+                    <span class="text-primary">.db</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#hero">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#catalog">Catálogo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#featured">Destacadas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Historia</a></li>
+                    </ul>
+                    <form class="d-flex gap-2 me-3" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                    <button type="button" class="btn btn-outline-primary">
+                        Mi Colección
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-dark text-light py-5 mb-5 border-bottom border-secondary">
+        <div class="container text-center py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <span class="badge bg-primary text-uppercase px-4 py-2 mb-3 rounded-pill">Archivo Histórico
+                        Cinematográfico</span>
+                    <h1 class="display-5 fw-bold mb-3">
+                        Grandes Obras Maestras del Séptimo Arte
+                    </h1>
+                    <p class="lead text-light mb-3">
+                        Una travesía visual por los filmes que definieron el lenguaje
+                        narrativo, la dirección de arte y la banda sonora de la historia
+                        del cine.
+                    </p>
+                    <p class="text-secondary small mb-4">
+                        Desde el expresionismo mudo de los años 20 hasta la revolución del
+                        color y la ciencia ficción de culto. Explora fichas técnicas,
+                        géneros y calificaciones verificadas.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#catalog" class="btn btn-primary btn-lg px-4">Explorar Catálogo</a>
+                        <a href="#about" class="btn btn-outline-light btn-lg px-4">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container py-5" id="catalog">
+        <section class="row p-4 g-4">
+            <div class="col-12 mb-4">
+                <h2 class="fw-bold">Catálogo Principal de Películas</h2>
+                <p class="lead text-secondary">Fichas de obras restauradas en alta definición</p>
+            </div>
+            
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Clásico Imperdible</div>
+                        <img src="images/image1.png" class="card-img img-fluid mb-3" alt="Casablanca" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Drama / Romance</span>
+                            <span class="text-warning">★ 9.2</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">Casablanca</h3>
+                        <p class="small">Dirigida por <strong>Michael Curtiz</strong> (1942)</p>
+                        <p class="small">
+                            En el Marruecos de la Segunda Guerra Mundial, el propietario de un club nocturno debe
+                            decidir si ayuda a su antiguo amor y a su esposo a ponerse a salvo.
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light">102 min</span>
+                            <button class="btn btn-primary btn-sm rounded-pill">Ver Ficha</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+           
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Expresionismo Mudo</div>
+                        <img src="images/image2.png" class="card-img img-fluid mb-3" alt="Metrópolis" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Sci-Fi / Silente</span>
+                            <span class="text-warning">★ 8.3</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">Metrópolis</h3>
+                        <p class="small">Dirigida por <strong>Fritz Lang</strong> (1927)</p>
+                        <p class="small">
+                            En un futuro distópico dividido entre pensadores y trabajadores, el hijo del gobernante de
+                            la ciudad se enamora de una líder de la clase trabajadora.
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light">153 min</span>
+                            <button class="btn btn-primary btn-sm rounded-pill">Ver Ficha</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+       
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Innovación Técnica</div>
+                        <img src="images/image3.png" class="card-img img-fluid mb-3" alt="Ciudadano Kane" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Drama / Misterio</span>
+                            <span class="text-warning">★ 8.9</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">Ciudadano Kane</h3>
+                        <p class="small">Dirigida por <strong>Orson Welles</strong> (1941)</p>
+                        <p class="small">
+                            Tras la muerte de un poderoso magnate de los medios de comunicación, un grupo de periodistas
+                            intenta descifran el significado de sus últimas palabras: "Rosebud".
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light">119 min</span>
+                            <button class="btn btn-primary btn-sm rounded-pill">Ver Ficha</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+      
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Cine de Culto</div>
+                        <img src="images/image4.png" class="card-img img-fluid mb-3" alt="2001 Odisea del Espacio" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Sci-Fi / Filosófico</span>
+                            <span class="text-warning">★ 9.0</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">2001: Odisea del Espacio</h3>
+                        <p class="small">Dirigida por <strong>Stanley Kubrick</strong> (1968)</p>
+                        <p class="small">
+                            Una enigmática estructura influye en la evolución humana antes de que una nave espacial sea
+                            enviada a Júpiter bajo el control de la inteligencia artificial HAL 9000.
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light">149 min</span>
+                            <button class="btn btn-primary btn-sm rounded-pill">Ver Ficha</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+     
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Era Dorada</div>
+                        <img src="images/image5.png" class="card-img img-fluid mb-3" alt="Cantar bajo la lluvia" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Musical / Comedia</span>
+                            <span class="text-warning">★ 8.3</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">Cantar bajo la lluvia</h3>
+                        <p class="small">Dirigida por <strong>Gene Kelly & Stanley Donen</strong> (1952)</p>
+                        <p class="small">
+                            Una compañía de producción cinematográfica y sus estrellas hacen la difícil transición del
+                            cine mudo al sonoro en Hollywood a finales de los años 20.
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light">103 min</span>
+                            <button class="btn btn-primary btn-sm rounded-pill">Ver Ficha</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+         
+            <article class="col-md-6 lg-col-4 my-3">
+                <div class="card bg-secondary text-light p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="mb-2">Obra Cumbre</div>
+                        <img src="images/image6.png" class="card-img img-fluid mb-3" alt="El Padrino" />
+                    </div>
+                    <div>
+                        <div class="my-2 d-flex justify-content-between">
+                            <span class="text-info">Policial / Drama</span>
+                            <span class="text-warning">★ 9.2</span>
+                        </div>
+                        <h3 class="fs-4 fw-bold text-warning mb-2">El Padrino</h3>
+                        <p class="small">Dirigida por <strong>Francis Ford Coppola</strong> (1972)</p>
+                        <p class="small">
+                            El envejecido patriarca de una dinastía familiar transfiere el control de su organización a
+                            su reacio hijo menor.
+                        </p>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center px-0 mt-3">
+                            <span class="badge bg-dark border border-light
